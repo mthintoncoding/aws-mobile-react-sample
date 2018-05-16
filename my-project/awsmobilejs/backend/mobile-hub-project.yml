@@ -9,7 +9,7 @@ features:
           sdk-generation-stage-name: Development
         paths:
           /items: !com.amazonaws.mobilehub.v0.Function 
-            codeFilename: uploads/lambda-archive.zip
+            codeFilename: uploads/ReactSample-20180516154959.zip
             description: 'Handler for calls to resource path : /items/{proxy+}'
             enableCORS: true
             environment:
@@ -17,15 +17,15 @@ features:
               ORDERS_TABLE_NAME: mattreactrestauranta-mobilehub-449632404-bbq_orders
               RESTAURANTS_TABLE_NAME: mattreactrestauranta-mobilehub-449632404-bbq_restaurants
             handler: lambda.handler
-            hashcode: hGyU2hfmI5WOPuoXwhy32WqUetD6qjLnyn5oZbkbnGI=
+            hashcode: rOQymbjNoyoinFwl4iie9tiR5DWslktWy6ZmNG61j1g=
             memorySize: '128'
-            modified: '2018-05-16T19:00:30.930+0000'
+            modified: '2018-05-16T19:50:38.044+0000'
             name: ReactSample
             runtime: nodejs6.10
             timeout: '3'
-            version: 09VBlooN.Yv8UpB6osQyPrYIdSqOjK6l
+            version: T022M61Wi4rbBE1pdEZ9zHWjZfYzNcWJ
           '/items/{proxy+}': !com.amazonaws.mobilehub.v0.Function 
-            codeFilename: uploads/lambda-archive.zip
+            codeFilename: uploads/ReactSample-20180516154959.zip
             description: 'Handler for calls to resource path : /items/{proxy+}'
             enableCORS: true
             environment:
@@ -33,13 +33,13 @@ features:
               ORDERS_TABLE_NAME: mattreactrestauranta-mobilehub-449632404-bbq_orders
               RESTAURANTS_TABLE_NAME: mattreactrestauranta-mobilehub-449632404-bbq_restaurants
             handler: lambda.handler
-            hashcode: hGyU2hfmI5WOPuoXwhy32WqUetD6qjLnyn5oZbkbnGI=
+            hashcode: rOQymbjNoyoinFwl4iie9tiR5DWslktWy6ZmNG61j1g=
             memorySize: '128'
-            modified: '2018-05-16T19:00:30.930+0000'
+            modified: '2018-05-16T19:50:38.044+0000'
             name: ReactSample
             runtime: nodejs6.10
             timeout: '3'
-            version: .hNyFY5ZbJweW1oBNGzH7mNGR7VQJmCD
+            version: kDCWNSiqyooLDY5tTO126DMQJuZWx6Lq
   content-delivery: !com.amazonaws.mobilehub.v0.ContentDelivery 
     attributes:
       enabled: true
